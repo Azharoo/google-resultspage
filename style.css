@@ -192,7 +192,11 @@ li#tools {
 
 /*Main*/
 
-
+div.results {
+    font-size: 13px;
+    color: #777;
+    padding-left: 180px;
+}
 
 
 
