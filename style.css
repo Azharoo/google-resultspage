@@ -8,6 +8,7 @@ body{
 
 a:-webkit-any-link {
     text-decoration: none;
+    color: #777;
 }
 
 /*Header*/
@@ -198,7 +199,113 @@ div.results {
     padding-left: 180px;
 }
 
+div.suggestions1 {
+    height: 280px;
+    width: 632px;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    margin-left: 150px;
+}
 
+.suglist li {
+    line-height: 1.2;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+div.tit {
+    position: absolute;
+    padding-left: 16px;
+    padding-top: 16px;
+    line-height: 1.2;
+    text-align: left;
+    width: 380px;
+}
+
+div h4 { 
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    margin: 0;
+}
+
+img.img {
+    position: relative;
+    margin-top: 0;
+    margin-right: 0;
+    float: right;
+    
+}
+
+ol.suglist {
+    padding-top: 80px;
+}
+
+.more a {
+    padding-left: 40px;
+}
+
+h5.more {
+    line-height: 1.2;
+    text-align: left;
+    margin: 0;
+    font-weight: normal;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+h5.more:hover {
+    text-decoration: underline;
+}
+
+.how a:link {
+    color: #1a0dab;
+}
+
+.how a:visited {
+    color: #609;
+}
+
+.how a:hover {
+    text-decoration: underline;
+}
+
+.how a {
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 16px;
+}
+
+h5.green {
+    color: #006621;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16px;
+    padding-left: 16px;
+    margin: 0;
+}
+
+.small ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 12px;
+    padding-left: 550px;
+    margin-top: 0;
+    padding-top: 4px;
+}
+ .small li {
+     padding-left: 10px;
+     margin: 0;
+     color: #777;
+ }
+
+ .small li:hover {
+     text-decoration: underline;
+ }
+
+ li.ico {
+     opacity: 0.5;
+ }
 
 /*Buttons*/
 
