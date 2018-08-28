@@ -193,6 +193,8 @@ li#tools {
 
 /*Main*/
 
+/*First suggestion box*/
+
 div.results {
     font-size: 13px;
     color: #777;
@@ -306,6 +308,99 @@ h5.green {
  li.ico {
      opacity: 0.5;
  }
+
+ /*Second suggestion box*/
+
+div.ask {
+    border: 1px solid #e0e0e0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-left: 150px;
+    width: 632px;
+}
+
+.ask h2 {
+    margin: 0;
+    color: #808080;
+    font-weight: normal;
+    padding: 15px 16px 10px;
+    font-size: 20px;
+}
+
+button.how-butt {
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    background-color: white;
+    margin-left: 150px;
+    width: 634px;
+    padding: 0;
+}
+
+.how-butt h3 {
+    line-height: 1.2;
+    text-align: left;
+    font-weight: normal;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0;
+    padding: 5px 16px 5px;
+}
+
+div.how-content {
+    width: 632px;
+    height: 284px;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    margin-left: 150px;
+    visibility: hidden;
+}
+
+button.how-butt:hover, div.how-content {
+    visibility: visible;
+}
+
+p.free {
+    margin: 0;
+    padding: 5px 16px 5px;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+    padding: 16px;
+}
+
+.how-content ol {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: normal;
+    border: 0;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding-left: 36px;
+}
+
+.how-content li {
+    margin-bottom: 4px;
+}
+
+p.search {
+    padding-left: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.search a:link {
+    color: #1a0dab;
+}
+
+.search a:visited {
+    color: #609;
+}
+
+.search a:hover {
+    text-decoration: underline;
+}
+
 
 /*Buttons*/
 
