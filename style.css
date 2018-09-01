@@ -327,6 +327,8 @@ div.ask {
     font-size: 20px;
 }
 
+/*Dropdown*/
+
 div.how-butt {
     border: 1px solid #e0e0e0;
     border-top: none;
@@ -348,7 +350,7 @@ div.how-butt {
 
 div.how-content {
     width: 632px;
-    height: 284px;
+    height: auto;
     border: 1px solid #e0e0e0;
     border-top: none;
     margin-left: 150px;
@@ -365,10 +367,6 @@ div.how-content {
 
 .how-input:checked + .how-content {
     display: block;
-}
-
-.how-input:checked + .div.how-butt {
-    border: 3px solid #227ef7;
 }
 
 p.free {
@@ -412,6 +410,8 @@ p.search {
 .search a:hover {
     text-decoration: underline;
 }
+
+
 
 
 /*Buttons*/
