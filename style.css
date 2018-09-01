@@ -327,12 +327,12 @@ div.ask {
     font-size: 20px;
 }
 
-button.how-butt {
+div.how-butt {
     border: 1px solid #e0e0e0;
     border-top: none;
     background-color: white;
     margin-left: 150px;
-    width: 634px;
+    width: 632px;
     padding: 0;
 }
 
@@ -352,11 +352,23 @@ div.how-content {
     border: 1px solid #e0e0e0;
     border-top: none;
     margin-left: 150px;
-    visibility: hidden;
+    display: none;
 }
 
-button.how-butt:hover, div.how-content {
-    visibility: visible;
+.how-input {
+    display: none;
+}
+
+.how-content {
+    display: none;
+}
+
+.how-input:checked + .how-content {
+    display: block;
+}
+
+.how-input:checked + .div.how-butt {
+    border: 3px solid #227ef7;
 }
 
 p.free {
