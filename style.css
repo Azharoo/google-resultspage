@@ -492,61 +492,193 @@ p.result-paragraph {
     font-size: small;
 }
 
-/*Buttons*/
+/*Related Search*/
 
-.buttons {
+div.related-search {
+    height: 192px;
+    width: 632px;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px #0000001a;
+    margin-left: 150px;
+    margin-top: 32px;
+    position: relative;
+}
+
+h5.rel-src {
+    line-height: 1.2;
+    text-align: left;
+    margin: 0;
+    font-weight: normal;
+    font-size: small;
+    padding-bottom: 0;
+    padding-left: 16px;
+    padding-top: 16px;
+    color: #777777;
+}
+
+div.tit-src {
+    line-height: 1.2;
+    padding-bottom: 0;
+    padding-left: 16px;
+    padding-top: 2px;
+    height: 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+    justify-content: space-between;
 }
 
-.butt {
-    background-color: #f2f2f2;
-    margin: auto 3px;
-    padding: 12px 16px;
-    border: transparent;
-    border-radius: 2px;
-    text-align: center;
-    font-size: 13px;
-    font-weight: bold;
-    color: #757575;
+div.best-web {
+    font-size: 18px;
+    font-weight: normal;
 }
 
-.butt:hover {
-    background-color: #f8f8f8;
-    padding: 11px 15px;
-    border: solid #9b9b9b 1px;
-    border-radius: 2px;
-    text-align: center;
-    font-weight: bold;
-    color: #000000; 
-    box-shadow: -5px 10px 10px -8px #D6D6D6;
+.link-src a {
+    line-height: 1.2;
+    font-weight: normal;
+    font-size: small;
+    color: #777777;
+    padding-right: 16px;
 }
 
-.butt:focused{
-    background-color: #f8f8f8;
-    padding: 11px 15px;
-    border: solid #4c8aad 1px;
-    border-radius: 2px;
-    text-align: center;
-    font-size: 13px;
-    font-weight: bold;
-    color: #000000; 
-}
-
-/*Languages*/
-
-.languages {
-    font-size: 13px;
-    text-align: center; 
-    margin-top: 30px;
-}
-
-.languages a:hover {
+.link-src a:hover {
     text-decoration: underline;
-    color: rgb(128, 128, 128);
 }
+
+div.image-line {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    max-height: 121px;
+}
+
+.im-fit {
+    width: 72px;
+    height: 72px;
+    overflow: hidden;
+}
+
+.im-fit img {
+    width: 226px;
+    height: 72px;
+    margin-left: -51px;
+}
+
+.im-fit2 {
+    width: 72px;
+    height: 72px;
+    overflow: hidden;
+}
+
+.im-fit2 img {
+    width: 213px;
+    height: 72px;
+    margin-left: -71px;
+}
+
+div.im {
+    height: 72px;
+    width: 72px;
+}
+
+div.tx {
+    word-wrap: break-word;
+    max-width: 72px;
+    margin: 3px 0 -1px;
+    padding-bottom: 1px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    line-height: 1.1;
+    text-align: left;
+    font-size: small;
+    font-weight: normal;
+}
+
+.image-line a:link {
+    color: #1a0dab;
+}
+
+.image-line a:visited {
+    color: #609;
+}
+
+
+/*Bottom Search Related*/
+
+div.bottom-sr {
+    width: 632px;
+    margin-left: 150px;
+    margin-top: 20px;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.bottom-tit h3 {
+    padding-left: 16px;
+    padding-bottom: 8px;
+    text-align: left;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+
+div.bottom-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-list-left li {
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 3px;
+    padding-right: 32px;
+    padding-bottom: 3px;
+}
+
+.bottom-list-right li {
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.bottom-list-right a:link {
+    color: #1a0dab;
+}
+
+.bottom-list-left a:link {
+    color: #1a0dab;
+}
+
+.bottom-list-right a:visited {
+    color: #609;
+}
+
+.bottom-list-left a:visited {
+    color: #609;
+}
+
+.bottom-list-right a:hover {
+    text-decoration: underline;
+}
+
+.bottom-list-left a:hover {
+    text-decoration: underline;
+}
+
+.bottom-list-left ul {
+    padding-left: 16px;
+}
+
+.bottom-list-right ul {
+    list-style-type: none;
+}
+
 
 /*Footer*/
 
