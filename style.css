@@ -91,7 +91,7 @@ input {
 ul.nav{
     display: flex;
     position: absolute;
-    margin: 20px 20px auto 1400px;
+    margin: 20px 20px auto 1500px;
     top: 0;
 }
 
@@ -471,6 +471,26 @@ p.search {
     text-decoration: underline;
 }
 
+/*Results*/
+
+div.results-list {
+    width: 632px;
+    height: auto;
+    margin-left: 150px;
+    margin-top: 20px;
+    line-height: 1.2;
+    text-align: left;
+}
+
+p.result-paragraph {
+    line-height: 1.4;
+    text-align: left;
+    margin-top: 0;
+    padding-left: 16px;
+    word-wrap: break-word;
+    color: #545454;
+    font-size: small;
+}
 
 /*Buttons*/
 
