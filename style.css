@@ -685,6 +685,7 @@ div#bottom-nav {
     width: 632px;
     height: 55px;
     margin-left: 150px;
+    margin-top: -20px;
 }
 
 table.bottom-nav {
@@ -754,27 +755,28 @@ p.next {
 /*Footer*/
 
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
+  margin-top: 30px;
 }
 
 footer .swiss {
-    background-color: #f8f8f8;
+    background-color: #f2f2f2;
     color: rgb(128, 128, 128);
     font-size: 15px;
     text-align: left;
     line-height: 40px;
-    padding-left: 30px;
+    padding-left: 166px;
     border-top: solid rgb(231, 231, 231) 1px;
     border-bottom: solid rgb(231, 231, 231) 1px;
 }
 
 footer .footlinks {
-    background-color: #f8f8f8;
+    background-color: #f2f2f2;
     color: rgb(128, 128, 128);
     font-size: 13px;
-    padding-left: 30px;
+    padding-left: 166px;
     border-bottom: solid rgb(231, 231, 231) 1px;
     display: flex;
     justify-content: space-between;
@@ -797,5 +799,5 @@ footer .right {
 }
 
 .footlinks a:hover {
-    text-decoration: underline;
-}
+    color: #3f3f3f;
+    text-decoration: none;
