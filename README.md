@@ -12,6 +12,13 @@ Required skills:
 
 Obtained skills:
 
+01. Name elements comprehensibly
+02. Have patience - easy does it
+03. Use CSS for dropdown menus
+04. Insert tables
+05. Work with the box model
+06. Use flex
+07. Prectice with div positioning
 
 
 From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
