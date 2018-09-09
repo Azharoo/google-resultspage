@@ -679,6 +679,77 @@ div.bottom-list {
     list-style-type: none;
 }
 
+/*Bottom Navigator*/
+
+div#bottom-nav {
+    width: 632px;
+    height: 55px;
+    margin-left: 150px;
+}
+
+table.bottom-nav {
+    margin: 30px auto 30px;
+    border-spacing: 0;
+}
+
+td.g {
+    vertical-align: bottom;
+    padding-bottom: 22px;
+}
+
+td.o-red, td.o {
+    padding: 0;
+    vertical-align: bottom;
+}
+p.numb {
+    margin-bottom: 0;
+    margin-top: 8px;
+    text-align: center;
+    font-size: small;
+}
+
+td a:link {
+    color: #1a0dab;
+}
+
+td a:visited {
+    color: #609;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+td.o {
+    padding-left: 2px;
+}
+
+td.gg {
+    padding-bottom: 3px;
+}
+
+td.l {
+    padding-bottom: 22px;
+    vertical-align: bottom;
+}
+
+td.e {
+    padding-bottom: 22px;
+    vertical-align: bottom;
+}
+
+td.arrow {
+    padding-left: 20px;
+    vertical-align: bottom;
+}
+
+p.next {
+    margin-bottom: 0;
+    margin-top: 8px;
+    font-size: small;
+    margin-left: -10px;
+}
+
 
 /*Footer*/
 
